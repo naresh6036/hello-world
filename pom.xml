@@ -219,7 +219,7 @@
 <repositories>
     <repository>
       <id>nexus</id>
-      <url>http://13.232.240.163:8081/repository/maven-group/</url>
+      <url>http://13.232.240.163:8081/repository/hello-group/</url>
     </repository>
   </repositories>
 </project>
