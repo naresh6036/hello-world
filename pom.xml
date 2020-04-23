@@ -216,5 +216,10 @@
   <prerequisites>
     <maven>3.0.3</maven>
   </prerequisites>
-
+<repositories>
+    <repository>
+      <id>maven-group</id>
+      <url>http://13.232.240.163:8081/repository/maven-group/</url>
+    </repository>
+  </repositories>
 </project>
