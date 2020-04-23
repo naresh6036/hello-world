@@ -20,15 +20,6 @@
     <module>server</module>
     <module>webapp</module>
   </modules>
-
-  <distributionManagement>
-    <site>
-      <id>site-server</id>
-      <name>Test Project Site</name>
-      <url>file:///tmp/maven-project-site</url>
-    </site>
-  </distributionManagement>
-
   <build>
     <plugins>
       <plugin>
@@ -216,10 +207,22 @@
   <prerequisites>
     <maven>3.0.3</maven>
   </prerequisites>
+	<distributionManagement>
+		 <snapshotRepository>
+		    <id>nexus</id>
+		    <url>http://172.31.47.137:8081/repository/car-rentals-snapshot/</url>
+		 </snapshotRepository>
+
+		<repository>
+		    <id>nexus</id>
+		    <url>http://172.31.47.137:8081/repository/car-rentals-release/</url>
+		</repository>
+  	</distributionManagement>
 <repositories>
     <repository>
       <id>nexus</id>
       <url>http://13.232.240.163:8081/repository/hello-group/</url>
     </repository>
   </repositories>
+         
 </project>
