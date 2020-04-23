@@ -218,7 +218,7 @@
   </prerequisites>
 <repositories>
     <repository>
-      <id>maven-group</id>
+      <id>nexus</id>
       <url>http://13.232.240.163:8081/repository/maven-group/</url>
     </repository>
   </repositories>
