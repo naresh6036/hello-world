@@ -221,7 +221,7 @@
 <repositories>
     <repository>
       <id>nexus</id>
-      <url>http://13.232.240.163:8081/repository/Test-group/</url>
+      <url>http://172.31.47.137:8081/repository/Test-group/</url>
     </repository>
   </repositories>
          
